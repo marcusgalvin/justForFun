@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {
+    background-image : url("https://rlv.zcache.com/cute_colorful_summer_fruits_pattern_wrapping_paper-rdf558883f02e4957a39a3a22bb2a4d64_zkehf_8byvr_307.jpg?rvtype=content")
+}
+h1 {
+color: red;
+}
+
+#title {
+color: blue;
+}
+
+#slogan {
+color: green;
+}
+
+.style1 {
+font-style: italic;
+}
+
+div {
+background-color: cyan;
+width: 300px;
+text-align: center;
+border: 1px solid green;
+padding: 25px;
+margin: 25px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border-radius: 9px; /* 5px rounded corners */
+}
+
+span {
+float: left;
+}
+</style>
+
+
+</head>
+
+<body>
+<div>
+<h1>Felicia Fruits</h1>
+<h5 id="title" class="style1">"Buy Felicia"</h5>
+
+</div>
+
+
+
+<div>
+<h5 id="slogan" class="style1">Freshly Picked</h5>
+
+
+</div>
+
+
+
+
+
+
+<div id="myHTMLWrapper">
+  
+  <select>
+  <option value="volvo">Apples</option>
+  <option value="apples()">Oranges</option>
+  <option value="mercedes">Peaches</option>
+  <option value="audi">Grapefruit</option>
+</select>
+  
+  
+  </p><button onclick="apples()">One</button></p>
+  </p><button onclick="oranges()">Two</button></p>
+  </p><button onclick="peaches()">Three</button></p>
+</p><button onclick="grapefruits()">Four</button></p>
+</div>
+
+<script type="text/javascript" >
+
+
+var fruit = ["Apple", "orange", "Peach", "Grapefruit"];
+var price = [1.00, 1.50, 1.75, 2.00];
+
+var wrapper = document.getElementById("myHTMLWrapper");
+
+  var myHTML = '';
+
+function apples(quantity) {
+     (quantity == 1)  
+
+  for (var i = 0; i < fruit.length; i++) {
+    myHTML += '<span class="test">One ' + (quantity, fruit[i]) + '</span><br/><br/>';
+    myHTML += '<span class="test">Costs $ ' + (price[i]) + ' </span><br/><br/>';
+  }
+  
+  function oranges() {
+    
+  
+  for (var i =0; i < fruit.length; i++) {
+        myHTML += '<span class="test">Two ' + (fruit[i]) + '</span><br/><br/>';
+            myHTML += '<span class="test">Costs $ ' + (price[i] * 2) + ' </span><br/><br/>';
+
+}
+function peaches() {
+for (var i =0; i <fruit.length; i++) {
+          myHTML += '<span class="test">Three ' + (fruit[i]) + '</span><br/><br/>';
+
+              myHTML += '<span class="test">Costs $ ' + (price[i] * 3) + ' </span><br/><br/>';
+
+}
+function grapefruits () {
+for (var i =0; i < fruit.length; i++) {
+            myHTML += '<span class="test">Four ' + (fruit[i]) + '</span><br/><br/>';
+              myHTML += '<span class="test">Cost $ ' + (price[i] * 3) + ' </span><br/><br/>';
+
+}
+}
+
+}
+
+
+  }
+
+  wrapper.innerHTML = myHTML
+
+
+
+
+
+
+
+}
+</script>
+
+</body>
+
+</html>

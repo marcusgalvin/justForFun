@@ -1,0 +1,91 @@
+body {
+    background-image: url('http://freewallpapersstock.com/download/64208/2400x1350/34310_chinese_pear_fruit_cutting_board_108809_2560x1600-2400x1350-c.jpg')
+}
+h1 {
+color: white;
+}
+
+#title {
+color: blue;
+}
+
+#slogan {
+color: green;
+}
+
+.style1 {
+font-style: italic;
+color: white;
+}
+
+div {
+text-align: center;
+font-size: 40px;
+font-family: 'Indie Flower', cursive;
+width: 300px;
+border: 5px ;
+padding: 25px;
+margin: 25px;
+box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+border-radius: 0px; /* 5px rounded corners */
+}
+
+span {
+float: left;
+}
+
+
+#div_1, #div_2, #div_3, #div_4{
+    width:100px;
+    height:100px;
+    border:0px solid red;
+    margin-right:10px;
+    float:left;
+}
+.child_div_1{
+    float:left;
+    margin-right:5px;
+}
+
+
+
+.center {
+    margin: auto;
+    width: 60%;
+}
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.avacado {
+    
+    width: 500px;
+    height: 500px;
+    background-image: url('http://www.compacsort.com/assets/Uploads/Color-AVO-img.jpg');
+    border: 3px solid red;
+}
+
+.dragonfruit {
+    
+    width: 500px;
+    height: 500px;
+    background-image: url('https://u.iplantz.com/864/Hylocereus%20undatus-4297.5184.thumb.jpg');
+    border: 3px solid red;
+}
+
+.strawberry {
+    
+    width: 500px;
+    height: 500px;
+    background-image: url('https://images.fabric.com/images/200/200/0316408.jpg');
+    border: 3px solid red;
+}
+
+.blueberry {
+    
+    width: 500px;
+    height: 500px;
+    background-image: url('https://www.starkbros.com/images/dynamic/2219-200x200.jpg');
+    border: 3px solid red;
+}

@@ -1,0 +1,53 @@
+Department d001 - Marketing:
+Employee ID: 10017
+Name: Cristinel Bouloucos
+Total combined salaries: 99651
+Department d002 - Finance:
+Total combined salaries: 0
+Department d003 - Human Resources:
+Employee ID: 10005
+Name: Kyoichi Maliniak
+Employee ID: 10013
+Name: Eberhardt Terkki
+Total combined salaries: 163593
+Department d004 - Production:
+Employee ID: 10003
+Name: Parto Bamford
+Employee ID: 10004
+Name: Chirstian Koblick
+Employee ID: 10018
+Name: Kazuhide Peha
+Employee ID: 10020
+Name: Mayuko Warwick
+Total combined salaries: 249057
+Department d005 - Development:
+Employee ID: 10001
+Name: Georgi Facello
+Employee ID: 10006
+Name: Anneke Preusig
+Employee ID: 10012
+Name: Patricio Bridgland
+Employee ID: 10014
+Name: Berni Genin
+Total combined salaries: 263734
+Department d006 - Quality Management:
+Employee ID: 10009
+Name: Sumant Peac
+Employee ID: 10010
+Name: Duangkaew Piveteau
+Total combined salaries: 174733
+Department d007 - Sales:
+Employee ID: 10002
+Name: Bezalel Simmel
+Employee ID: 10016
+Name: Kazuhito Cappelletti
+Total combined salaries: 150462
+Department d008 - Research:
+Employee ID: 10007
+Name: Tzvetan Zielinski
+Employee ID: 10019
+Name: Lillian Haddadi
+Total combined salaries: 138102
+Department d009 - Customer Service:
+Total combined salaries: 0
+The companys entire salary total: 1239332

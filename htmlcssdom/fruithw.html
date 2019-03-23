@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {
+    background-image : url("https://rlv.zcache.com/cute_colorful_summer_fruits_pattern_wrapping_paper-rdf558883f02e4957a39a3a22bb2a4d64_zkehf_8byvr_307.jpg?rvtype=content")
+}
+h1 {
+color: red;
+}
+
+#title {
+color: blue;
+}
+
+#slogan {
+color: red;
+}
+
+.style1 {
+font-style: monospace
+}
+
+div {
+background-color: cyan;
+width: 300px;
+text-align: center;
+border: 1px solid maroon;
+padding: 25px;
+margin: auto;
+box-shadow: 0 4px 90px 0 rgba(0,0,0,0.2);
+border-radius: 9px; /* 5px rounded corners */
+}
+
+span {
+float: left;
+}
+</style>
+
+
+</head>
+
+<body>
+    
+    
+    
+    
+<div>
+<h1>- Felicia's Fabulous - Fruits!</h1>
+<h5 id="title" class="style1">"Buy Felicia!"</h5>
+
+</div>
+
+
+
+<div>
+ 
+</select>
+<h5 id="slogan" class="style1">Freshly Picked:</h5>
+<p id="type1"></p><button onclick="apples()">Apples</button></p>
+<p id="type2"></p><button onclick="oranges()">Oranges</button></p>
+<p id="type3"></p><button onclick="peaches()">Peachs</button></p> 
+<p id="type4"></p><button onclick="grapefruit()">Grapefruits</button></p>
+
+
+<p id="fruit"></p><button onclick="fruit()">Tester</button></p>
+</div>
+
+<script type="text/javascript" >
+
+var fruits = ['Apples', 'Oranges', 'Peaches', 'Grapefruits'];
+var prices = [1.00, 1.50, 1.75, 2.00];
+
+function apples() {
+    document.getElementById("type1").innerHTML = "Apples Cost $1.00 ea";
+}
+function oranges() {
+    document.getElementById("type2").innerHTML = "Oranges Cost $1.50 ea";
+}
+function peaches() {
+    document.getElementById("type3").innerHTML = "Peaches Cost $1.75 ea"
+}
+function grapefruit() {
+    document.getElementById("type4").innerHTML = "Grapefruit Cost $2.00 ea"
+}
+ 
+        
+var fruit = ["Apple", "orange", "Peach", "Grapefruit"];
+var price = [1.00, 1.50, 1.75, 2.00];
+
+function totals(quantity) {
+   if (quantity == 1) {
+       for (var i=0; i < 4; i++) {
+           console.log("The price of", quantity, fruit[i], "is", quantity * price[i]);
+       }
+   } else {
+       for (var i = 0; i < 4; i++) {
+           console.log("The price of", quantity, fruit[i]+ "s is", quantity * price[i]);
+         
+       }
+       
+      
+}
+
+function Fruits() {
+ if (document.getElementById("fruit").innerText >= "21") {
+        document.getElementById("drinkstatus").innerText = "Old enough to drink";
+    }
+    else { document.getElementById("drinkstatus").innerText = "Get out of here!" }
+
+}
+
+
+}
+totals(1);
+totals(2);
+totals(3);
+totals(4);
+totals(5);
+
+</script>
+
+</body>
+
+</html>

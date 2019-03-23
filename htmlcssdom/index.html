@@ -1,0 +1,42 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #title {
+            color: blue;
+        }
+
+        #slogan {
+            color: green;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="color:red">Marcus Galvin</h1>
+    <h5 id="title">Software Engineer</h5>
+    <h5 id="slogan">Always Be Coding!</h5>
+
+    <p class="bold">CareerDevs is Life. Life is CareerDevs!</p>
+    <p id="age">18</p>
+    <p id="drinkstatus"></p>
+
+</body>
+
+
+
+<script>
+    if (document.getElementById("age").innerText >= "21") {
+        document.getElementById("drinkstatus").innerText = "Old enough to drink";
+    }
+    else { document.getElementById("drinkstatus").innerText = "Get out of here!" }
+</script>
+
+</html>
+

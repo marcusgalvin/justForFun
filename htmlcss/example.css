@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+}
+
+.avacado {
+        background-image: url('https://media.treehugger.com/assets/images/2018/05/avocados.jpg.860x0_q70_crop-scale.jpg');
+
+}
+
+.dragonfruit {
+        background-image: url('https://i0.wp.com/www.healthline.com/hlcmsresource/images/AN_images/dragon-fruit-benefits-1296x728-feature.jpg');
+
+}
+
+.strawberry {
+    
+            background-image: url('https://images.fabric.com/images/200/200/0316408.jpg');
+
+}
+
+h2 {
+    color: white;
+}
+p {
+    color: white;
+}

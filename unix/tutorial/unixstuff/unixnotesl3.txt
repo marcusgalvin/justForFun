@@ -1,0 +1,192 @@
+
+   
+   
+   
+   85  curl -LO curl -L -o test.pdf "http://www.sciencedirect.com/science/article/pii/S0378426612000817/pdfft?md5=6a85f34def09dd5cfb1d1b8feded0d51&pid=1-s2.0-S0378426612000817-main.pdf"
+   86  la - la
+   87  ls - la
+   88  env
+   89  tocuh firstscript.sh
+   90  ls - la
+   91  touch firstscript.sh
+   92  la - la
+   93  ls -la
+   94  c9 firstscript.sh 
+   95  myisam
+   96  ls -la
+   97  cd .
+   98  cd ..
+   99  cd unix/
+  100  ls -la
+  101  ./firstscript.sh
+  102  chmod 500 firstscript.sh 
+  103  ls -la
+  104  ./firstscript.sh 
+  105  chmod a+x firstscript.sh 
+  106  ls -la
+  107  cd ..
+  108  la
+  109  touch index.html
+  110  c9 index.html
+  111  cd javascript-7d
+  112  cd unix
+  113  ls
+  114  ls -la
+  115  touch myfile.txt
+  116  ls -la
+  117  chmod 555 myfile.txt
+  118  ls -la
+  119  cd ..
+  120  mkdir js
+  121  cd js
+  122  touch calc.js
+  123  c9 calc.js
+  124  clear
+  125  node
+  126  la
+  127  node calc.js
+  128  noce calc.js
+  129  node calc.js
+  130  node calc
+  131  npm install readline-sync
+  132  touch nicetomeetyou.js
+  133  c9
+  134  c9 nicetomeetyou.js
+  135  node calc.js
+  136  touch carSalesTotal.js
+  137  tocuh carsalestotal.js
+  138  c9
+  139  c9 carsalestotal
+  140  c9 carsalestotal.js
+  141  carsalestotal.js
+  142  c9 carSalesTotal.js
+  143  node carSalesTotal.js
+  144  npde carSalesTotal.js
+  145  node carSalesTotal.js
+  146  clear
+  147  cd javascript101-7d
+  148  cd unix
+  149  cd ..
+  150  ls
+  151  cd unix
+  
+  
+  
+  
+  152  echo Unix Tutorial Asiignment One
+  153  ls
+  154  ls -a
+  155  mkdir unixstuff
+  156  touch unixnotes.txt
+  157  ls
+  158  rm unixstuff
+  159  rm -rf unixstuff
+  160  mkdir tutorial
+  161  mv unixnotes.txt tutorial
+  162  ls
+  163  cd tutorial
+  164  clear
+  165  ls
+  166  mkdir unixstuff
+  167  ls
+  168  cd unixstuff
+  169  cd ..
+  170  history > unixnotesl1.txt
+  171  c9 unixnotes.txt
+  172  c9 unixnotes1l.txt
+  173  c9 unixnotesl1
+  174  c9 unixnotesl1.txt
+  175  ls backups
+  176  ls unixstuff/backups
+  177  ls ~/unixstuff
+  178  cd unixstuff
+  179  ls unixstuff/backups
+  180  ls ~/unixstuff
+  181  ls ~
+  182  ls ~/..
+  183  history > unixnotesl1.txt
+  184  ls
+  185  c9 unixnotesl1.txt
+  186  clear
+  187  cp/vol/ee/ee-info/Teaching/Unix/science.txt.
+  188  cp /vol/ee/ee-/info/Teaching/Unix/science.txt .
+  189  cp /vol/ee/ee-info/Teaching/Unix/science.txt .
+  190  mv science.bak backups/.
+  191  cp science,txt tempfile.txt
+  192  ls
+  193  rm tempfile.txt
+  194  ls
+  195  curl -O http://www.ee.surrey.ac.uk/Teaching/Unix/science.txt
+  196  mv science.bak backups/.
+  197  mkdir backups
+  198  ls
+  199  ls -la
+  200  mkdir science.bak
+  201  ls
+  202  touch science.bak
+  203  ls
+  204  cp science.txt science.bak
+  205  mv science.bak backups/.
+  206  ls
+  207  cp science.txt tempfile.txt
+  208  ls
+  209  rm tempfile.txt
+  210  la
+  211  ls
+  212  mkdir tempstuff
+  213  rmdir tempstuff
+  214  ls -la
+  215  clear
+  216  cat science.txt
+  217  less science.txt
+  218  clear
+  219  head science.txt
+  220  head -5 science.txt
+  221  clear
+  222  tail science.txt
+  223  tail -15 science.txt
+  224  tail +15 science.txt
+  225  less science.txt/science
+  226  n
+  227  less science.txt/science[n]
+  228  less science.txt
+  229  /science
+  230  less science.txt
+  231  clear
+  232  grep science science.txt
+  233  grep Science science.txt
+  234  grep -i 'spinning top' science.txt
+  235  grep -v 'science' science.txt
+  236  grep -ivc science science.txt
+  237  wc -w science.txt
+  238  wc -1 science.txt
+  239  wc -l science.txt
+  240  history > unixnotesl2.txt
+  241  c9 unixnotesl2
+  242  c9 unixnotesl2.txt
+  243  cat Hello
+  244  cat a few words
+  245  cd javascript101-7d
+  246  cd unix
+  247  cd tutorial
+  248  cd unixstuff
+  249  cat > list1
+  250  cat list1
+  251  cat > list2
+  252  list2
+  253  cat list2
+  254  cat >> list1
+  255  cat lis1
+  256  cat list1
+  257  cat list1 list2 > biglist
+  258  cat biglist
+  259  sort
+  260  sort < biglist
+  261  sort < biglist > slist
+  262  cat slist
+  263  who
+  264  who > names.txt
+  265  sort < names.txt
+  266  who | wc -1
+  267  cat list1 list 2 | grep p | sort
+  268  history > unixnotesl3.txt

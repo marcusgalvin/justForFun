@@ -1,0 +1,33 @@
+
+   69  echo Unix Tutorial Asiignment One
+   70  ls
+   71  ls -a
+   72  mkdir unixstuff
+   73  touch unixnotes.txt
+   74  ls
+   75  rm unixstuff
+   76  rm -rf unixstuff
+   77  mkdir tutorial
+   78  mv unixnotes.txt tutorial
+   79  ls
+   80  cd tutorial
+   81  clear
+   82  ls
+   83  mkdir unixstuff
+   84  ls
+   85  cd unixstuff
+   86  cd ..
+   87  history > unixnotesl1.txt
+   88  c9 unixnotes.txt
+   89  c9 unixnotes1l.txt
+   90  c9 unixnotesl1
+   91  c9 unixnotesl1.txt
+   92  ls backups
+   93  ls unixstuff/backups
+   94  ls ~/unixstuff
+   95  cd unixstuff
+   96  ls unixstuff/backups
+   97  ls ~/unixstuff
+   98  ls ~
+   99  ls ~/..
+  100  history > unixnotesl1.txt

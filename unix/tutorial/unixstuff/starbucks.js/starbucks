@@ -1,0 +1,37 @@
+const formatter = new Intl.NumberFormat('en-US', {
+    
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2
+})
+
+var readline = require('readline-sync');
+var product1 = readline.question("What kind of latte would you like?");
+
+
+
+var product1 = "Chai Latte";
+var product2 = "Mocha Latte";
+var product3 = "Espresso Latte";
+
+var p1SalesCount = 1;
+var p2SalesCount = 1;
+var p3SalesCount = 1;
+
+var p1Price = 3;
+var p2Price = 4;
+var p3Price = 5;
+
+
+
+var p1TotalSalesDollars = formatter.format(p1SalesCount * p1Price * 0.7);
+
+
+var p2TotalSalesDollars = formatter.format(p2SalesCount * p2Price * 0.7);
+var p3TotalSalesDollars = formatter.format(p3SalesCount * p3Price * 0.7);
+
+
+
+console.log("Total sales for the", product1, "is", p1TotalSalesDollars);
+console.log("Total sales for the", product2, "is", p2TotalSalesDollars);
+console.log("Total sales for the", product3, "is", p3TotalSalesDollars);

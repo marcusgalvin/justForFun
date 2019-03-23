@@ -1,0 +1,46 @@
+
+h1 {
+color: red;
+}
+
+#title {
+color: blue;
+}
+
+#slogan {
+color: green;
+}
+
+.style1 {
+font-style: italic;
+}
+
+div {
+width: 300px;
+border: 1px solid green;
+padding: 25px;
+margin: 25px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border-radius: 9px; /* 5px rounded corners */
+}
+
+span {
+float: left;
+}
+
+
+
+
+
+
+#parent_div_1, #parent_div_2, #parent_div_3{
+    width:100px;
+    height:100px;
+    border:1px solid red;
+    margin-right:10px;
+    float:left;
+}
+.child_div_1{
+    float:left;
+    margin-right:5px;
+}

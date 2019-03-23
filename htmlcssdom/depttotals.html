@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+<HEAD>
+    <style>
+        #company {
+            color: red;
+        }
+
+        #middle {
+            color: blue;
+        }
+
+
+        #top,
+        #middle,
+        #bottom {
+
+            border: 1px solid grey;
+            width: 500px;
+            /* CSS Comment, Top, Right, Bottom, Left (clockwise)*/
+            margin: 10px 50px 10px 100px;
+            border-radius: 5px;
+            padding: 10px 20px 10px 20px;
+            box-shaddow: 0px 4px 8px 0px lightgrey;
+        }
+    </style>
+
+</HEAD>
+
+<body>
+    <div id="top">
+        <!-- This is a comment -->
+        <h1 id="company">Company Corp.</h1>
+        <h3>We mean buisness</h3>
+    </div>
+
+    <div id="middle">
+        <h5>Department Salary Totals</h5>
+        <h5>Feburary, 2019</h5>
+        <p>Accurate Salary Reporting Guarenteed! Or Your Money Back!</p>
+    </div>
+
+    <div id="bottom">
+        <h3>Department Totals</h3>
+        <div id="Results"></div>
+    </div>
+
+
+
+
+    <script>
+        var sdr = {
+
+            fruit: ["Apples", "Oranges", "Peaches", "Mangos", "Grapes"],
+            quantity: [1, 2, 3, 4, 5],
+            price: [1.50, 2.50, 3.50, 4.50, 5.50],
+
+            totals: function() {
+
+               
+                
+                for (var i = 0; i < sdr.fruit.length; i++) {
+                    
+console.log(sdr.fruit[i] * sdr.price[i]);
+                }
+
+            }
+
+
+
+        };
+        document.getElementById("Results").innerText = sdr.totals();
+    </script>
+
+</body>
+
+
+
+
+</HTML>

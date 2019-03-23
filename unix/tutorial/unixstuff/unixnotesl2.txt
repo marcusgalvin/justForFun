@@ -1,0 +1,102 @@
+
+
+
+
+
+
+Assignment 2:
+123  c9 unixnotesl1.txt   124  clear   125  cd ~/unixstuff   126  % cp /vol/ee/ee-info/Teaching/Unix/science.txt .   127  mv science.bak backups/ .   128  cp science.txt tempfile.txt   129  ls   130  rmtempfile.txt   131  ls   132  curl -O http://www.ee.surrey.ac.uk/Teaching/Unix/science.txt   133  mkdir backups   134  cp science.txt science.bak   135  ls   136  % mv science.bak backups/.   137  mv science.bak backups/.   138  cp science.txt tempfile.txt   139  ls   140  rm tempfile.txt   141  ls   142  mkdir tempstuff   143  rmdir tempstuff   144  clear   145  cat science.txt   146  less science.txt   147  clear   148  head science.txt   149  head -5 science.txt   150  clear   151  tail science.txt   152  tail -15 science.txt   153  less science.txt /science   154  less science.txt   155  clear   156  grep science science.txt   157  grep Science science.txt   158  grep -i science science.txt   159  grep -i 'spinning top' science.txt   160  wc -w science.txt   161  wc -l science.txt   162  history > unixnotesl2.txt
+
+
+
+   
+   
+   69  echo Unix Tutorial Asiignment One
+   70  ls
+   71  ls -a
+   72  mkdir unixstuff
+   73  touch unixnotes.txt
+   74  ls
+   75  rm unixstuff
+   76  rm -rf unixstuff
+   77  mkdir tutorial
+   78  mv unixnotes.txt tutorial
+   79  ls
+   80  cd tutorial
+   81  clear
+   82  ls
+   83  mkdir unixstuff
+   84  ls
+   85  cd unixstuff
+   86  cd ..
+   87  history > unixnotesl1.txt
+   88  c9 unixnotes.txt
+   89  c9 unixnotes1l.txt
+   90  c9 unixnotesl1
+   91  c9 unixnotesl1.txt
+   92  ls backups
+   93  ls unixstuff/backups
+   94  ls ~/unixstuff
+   95  cd unixstuff
+   96  ls unixstuff/backups
+   97  ls ~/unixstuff
+   98  ls ~
+   99  ls ~/..
+  100  history > unixnotesl1.txt
+  101  ls
+  102  c9 unixnotesl1.txt
+  103  clear
+  104  cp/vol/ee/ee-info/Teaching/Unix/science.txt.
+  105  cp /vol/ee/ee-/info/Teaching/Unix/science.txt .
+  106  cp /vol/ee/ee-info/Teaching/Unix/science.txt .
+  107  mv science.bak backups/.
+  108  cp science,txt tempfile.txt
+  109  ls
+  110  rm tempfile.txt
+  111  ls
+  112  curl -O http://www.ee.surrey.ac.uk/Teaching/Unix/science.txt
+  113  mv science.bak backups/.
+  114  mkdir backups
+  115  ls
+  116  ls -la
+  117  mkdir science.bak
+  118  ls
+  119  touch science.bak
+  120  ls
+  121  cp science.txt science.bak
+  122  mv science.bak backups/.
+  123  ls
+  124  cp science.txt tempfile.txt
+  125  ls
+  126  rm tempfile.txt
+  127  la
+  128  ls
+  129  mkdir tempstuff
+  130  rmdir tempstuff
+  131  ls -la
+  132  clear
+  133  cat science.txt
+  134  less science.txt
+  135  clear
+  136  head science.txt
+  137  head -5 science.txt
+  138  clear
+  139  tail science.txt
+  140  tail -15 science.txt
+  141  tail +15 science.txt
+  142  less science.txt/science
+  143  n
+  144  less science.txt/science[n]
+  145  less science.txt
+  146  /science
+  147  less science.txt
+  148  clear
+  149  grep science science.txt
+  150  grep Science science.txt
+  151  grep -i 'spinning top' science.txt
+  152  grep -v 'science' science.txt
+  153  grep -ivc science science.txt
+  154  wc -w science.txt
+  155  wc -1 science.txt
+  156  wc -l science.txt
+  157  history > unixnotesl2.txt
